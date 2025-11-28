@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parc Dewi Sant Navigation System - Adam Boyt</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://boyt.dev">
+            <img class="banner" src="images/BoytDevBanner.jpg"/>
+            </a>
+            <p>
+            <h1>Parc Dewi Sant Navigation System</h1>
+            <p class="subtitle">QR-enabled indoor navigation and wayfinding solution</p>
+            <div class="tech-stack">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">QR Code Generation</span>
+                <span class="tech-tag">Google Maps API</span>
+                <span class="tech-tag">C# ASP.NET backend</span>
+                <span class="tech-tag">SQLite</span>
+            </div>
+        </div>
+
+        <div class="content-box">
+            <h2>Project Overview</h2>
+            <p>A comprehensive navigation system designed for Parc Dewi Sant, a multi-tenant business complex. The solution addresses the common challenge visitors face when attending meetings or events in large buildings with multiple companies and room locations.</p>
+            <p>The system bridges outdoor and indoor navigation, guiding visitors from their starting point to the correct car park, and then providing step-by-step indoor wayfinding to their final destination within the building.</p>
+            <a href="https://navigation.parcdewisant.co.uk" target="_blank" class="live-link">View Live Site ↗</a>
+            <br/>
+            <a href="https://github.com/boyty01/STDavidsNavigationSample" target="_blank" class="live-link">View Sample Github Repository ↗</a>
+        </div>
+
+        <div class="content-box">
+            <h2>Key Features</h2>
+            
+            <h3>Visitor Experience</h3>
+            <ul class="feature-list">
+                <li><strong>Event/Company Selection</strong> - Landing page with dropdown menu of all available destinations within the building</li>
+                <li><strong>QR Code Distribution</strong> - Generate and display unique QR codes for each location, enabling easy sharing and mobile access</li>
+                <li><strong>Dual Navigation Options</strong> - Choose between Google Maps integration for driving directions or direct web-based navigation</li>
+                <li><strong>Car Park Guidance</strong> - Automatically directs visitors to the appropriate car park for their destination</li>
+                <li><strong>Indoor Wayfinding</strong> - Step-by-step visual guide with photos showing the route from car park to specific room</li>
+                <li><strong>Mobile-First Design</strong> - Optimized for on-the-go access via smartphone</li>
+            </ul>
+
+            <h3>Admin Backend</h3>
+            <ul class="feature-list">
+                <li><strong>Content Management</strong> - Add, edit, and remove navigation routes and destinations</li>
+                <li><strong>Image Upload</strong> - Upload and manage wayfinding photos for each route step</li>
+                <li><strong>QR Code Generation</strong> - Automatically generate QR codes for any navigation route</li>
+                <li><strong>Real-Time Updates</strong> - Changes reflect immediately on the public-facing site</li>
+            </ul>
+        </div>
+
+        <div class="content-box">
+            <h2>Technical Implementation</h2>
+            <p>Built with a focus on simplicity and reliability, the system uses vanilla JavaScript for the frontend with a lightweight backend for content management. QR codes are dynamically generated and linked to specific navigation routes, while the Google Maps API integration provides seamless outdoor navigation.</p>
+            <p>The admin interface allows non-technical staff to maintain navigation data without developer intervention, reducing ongoing maintenance overhead.</p>
+        </div>
+
+        <div class="content-box">
+            <h2>Screenshots</h2>
+            <div class="screenshot-placeholder">
+                <a href="images/main-page.png"> 
+                    <img class="screenshot" src="images/main-page.png">
+                </a>
+            </div>
+            <div class="screenshot-placeholder">
+                   <a href="images/qr-example.png"> 
+                    <img class="screenshot" src="images/qr-example.png">
+                </a>
+            </div>
+            <div class="screenshot-placeholder">
+                   <a href="images/stepbystep.png"> 
+                    <img class="screenshot" src="images/stepbystep.png">
+                </a>
+            </div>
+            <div class="screenshot-placeholder">
+                [Admin backend interface]
+            </div>
+        </div>
+
+        <div class="content-box">
+            <h2>Problem Solved</h2>
+            <p>Parc Dewi Sant hosts multiple companies and events, making it difficult for first-time visitors to navigate efficiently. Traditional printed directions become outdated quickly and don't account for different entry points or parking areas.</p>
+            <p>This system provides a scalable, always-updated solution that can be shared via QR codes on invitations, emails, or physical signage, significantly improving the visitor experience and reducing reception desk inquiries.</p>
+        </div>
+    </div>
+</body>
+</html>
